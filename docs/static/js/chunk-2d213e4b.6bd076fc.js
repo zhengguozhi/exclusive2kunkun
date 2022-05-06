@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d213e4b"],{af2b:function(e,i,n){"use strict";n.r(i);var o=n("cf0c"),w=n("b7de");function c(){w["c"].$emit("window.resize")}w["c"].$emit("window.resize",{},!0),window.addEventListener("resize",(function(){Object(o["f"])(c)}),!1),console.log("windowResize is init")}}]);
