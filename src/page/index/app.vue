@@ -68,10 +68,7 @@
               </div>
             </div>
             <div class="mb-60"></div>
-            <img
-              class="plane-ticket"
-              src="http://pws.myhug.cn/npic/im/0/20220322192442_tc_514f551948da30e70e42d2f82f63ffa7"
-            />
+            <img class="plane-ticket" :src="planeUrl" />
           </div>
         </div>
         <!-- </transition> -->
@@ -242,7 +239,7 @@ import { getRandomNum } from '@lib/common/config/mUtils'
 const initSqlJs = require('sql.js')
 // import Toast from '@lib/plugins/Sloth/Toast/'
 let imgSource = {
-  bg: assetsPrefix + '20200525134426_277b4e1c11b6061fbb400ecbe0d45e6c'
+  bg: assetsPrefix + ''
 }
 export default {
   components: {
@@ -333,6 +330,7 @@ export default {
           name: '待补充'
         }
       ],
+      planeUrl: 'https://zhengguozhi.github.io/assetRepo/exclusive2kunkun/3271651836138.jpg',
       time: 30 * 60 * 60 * 1000,
       currentRate: 0,
       gradientColor: {
@@ -345,7 +343,7 @@ export default {
       minNum: '',
       randomNum: 0,
       lastTime: new Date('2022-03-20 21:10:00'),
-      nextTime: new Date('2022-04-29 20:50:00'),
+      nextTime: new Date('2022-06-07 19:00:00'),
       meetPercent: 10,
       msgList: [],
       msgId: '',

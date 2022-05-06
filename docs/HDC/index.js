@@ -7,7 +7,7 @@
       id: '',
     },
     {
-      url: 'static/css/index.7257c798.css',
+      url: 'static/css/index.a128f120.css',
       type: 'css',
       position: 'head',
       id: '',
@@ -27,7 +27,7 @@
       moduleType: 0,
     },
     {
-      url: 'static/js/index.309747e1.js',
+      url: 'static/js/index.11446dda.js',
       type: 'js',
       position: 'body',
       id: '',
