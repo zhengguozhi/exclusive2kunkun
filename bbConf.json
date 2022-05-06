@@ -1,0 +1,21 @@
+{
+  "type": "act",
+  "name": "halloween_2021",
+  "name-desc": "万圣节",
+  "author": "zhengguozhi",
+  "testSubPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5Test/h5bbAct/halloween2020",
+  "subPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5bbAct/halloween_2021",
+  "ways": "svn",
+  "proxyTableUrl": "https://www.myhug.cn",
+  "belong": "baobao",
+  "rootValue": 750,
+  "VERSION": "v-0.0.1",
+  "noJs": [],
+  "injectCodeFile": "../lib/injectCode/baobao.inject.txt",
+  "dll": "vue_axios",
+   "hdcConfig": {
+     "dllIgnore": false
+   },
+  "sw": false,
+  "pageCache": false
+ }

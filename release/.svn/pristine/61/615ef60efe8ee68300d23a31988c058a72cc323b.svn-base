@@ -1,0 +1,13 @@
+CACHE MANIFEST
+ # VERSIONv-0.0.1
+ # PUBLISHTIME 2022-02-02 23:09:26
+ #缓存的文件 
+ CACHE: 
+
+ #需要在线的文件 
+ NETWORK: 
+*
+
+ #替代方案  
+ FALLBACK: 
+ undefined

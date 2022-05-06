@@ -1,0 +1,22 @@
+{
+  "type": "act",
+  "name": "exclusive2kunkun",
+  "name-desc": "困困专属",
+  "author": "zhengguozhi",
+  "testSubPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5Test/h5bbAct/bbTmp",
+  "subPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5bbAct/exclusive2kunkun",
+  "ways": "svn",
+  "proxyTableUrl": "https://www.myhug.cn",
+  "belong": "baobao",
+  "rootValue": 750,
+  "VERSION": "v-0.0.1",
+  "noJs": [],
+  "injectCodeFile": "../lib/injectCode/baobao.inject.txt",
+  "dll": "vue_axios",
+  "hdcConfig": {
+    "dllIgnore": false
+  },
+  "sw": false,
+  "pwa": false,
+  "pageCache": false
+}
