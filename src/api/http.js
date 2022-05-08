@@ -11,7 +11,7 @@ import Toast from '@lib/plugins/Sloth/Toast/'
 import { setCookie, getCookie, delCookie } from '@lib/common/config/mUtils'
 // import getParam from '@lib/plugins/Sloth/getParam'
 import onlineToTest from '@lib/common/config/onLinetoTest.js'
-import { getUId, isIOS, urlParam } from '@lib/eryuSdk'
+import { isIOS, urlParam } from '@lib/eryuSdk'
 import { commonParams, isDev } from '@config'
 import Vue from 'vue'
 // let urlParam = getParam()
@@ -58,12 +58,12 @@ if (urlParam.yUId) {
 let uId = null
 let yUId = null
 // 获取id
-getUId().then((res) => {
-  uId = res.uId || ''
-})
-getUId('yUId').then((res) => {
-  yUId = res.yUId || ''
-})
+// getUId().then((res) => {
+//   uId = res.uId || ''
+// })
+// getUId('yUId').then((res) => {
+//   yUId = res.yUId || ''
+// })
 axios.interceptors.request.use(
   (config) => {
     if (config.method === 'post') {

@@ -12,10 +12,6 @@
   "VERSION": "v-0.0.1",
   "noJs": [],
   "injectCodeFile": "../lib/injectCode/baobao.inject.txt",
-  "dll": "vue_axios",
-  "hdcConfig": {
-    "dllIgnore": false
-  },
   "sw": false,
   "pwa": false,
   "pageCache": false
