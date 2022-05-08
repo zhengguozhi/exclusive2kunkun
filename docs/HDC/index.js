@@ -7,7 +7,7 @@
       id: '',
     },
     {
-      url: 'static/css/index.a128f120.css',
+      url: 'static/css/index.8d898b3c.css',
       type: 'css',
       position: 'head',
       id: '',
@@ -20,14 +20,14 @@
       moduleType: 0,
     },
     {
-      url: 'static/js/chunk-vendors.d9050cb4.js',
+      url: 'static/js/chunk-vendors.dd39b6b2.js',
       type: 'js',
       position: 'body',
       id: '',
       moduleType: 0,
     },
     {
-      url: 'static/js/index.11446dda.js',
+      url: 'static/js/index.0169394d.js',
       type: 'js',
       position: 'body',
       id: '',

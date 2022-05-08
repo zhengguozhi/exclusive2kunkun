@@ -6,7 +6,7 @@
   "testSubPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5Test/h5bbAct/bbTmp",
   "subPath": "http://svn.i.myhug.cn:88/svn/baobao/static/wap/wap/h5bbAct/exclusive2kunkun",
   "ways": "svn",
-  "proxyTableUrl": "https://www.myhug.cn",
+  "proxyTableUrl": "http://192.168.2.107:7001",
   "belong": "baobao",
   "rootValue": 750,
   "VERSION": "v-0.0.1",

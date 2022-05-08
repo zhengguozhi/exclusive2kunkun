@@ -28,6 +28,8 @@
             text="每天想你一点点，每天想你一点点，每天想你一点点，每天想你一点点，每天想你一点点"
           />
           <div class="mb-50"></div>
+          <div class="flex flex-center">{{ midwayInitRes.midwayInit }}</div>
+          <div class="mb-50"></div>
           <div class="see-again">
             <van-row justify="center" align="center">
               <van-col span="24">
@@ -232,7 +234,7 @@
 // import { giftProgress } from '@components/progress/'
 import { navContent } from '@lib/components'
 import { ImagePreview } from 'vant'
-// import { statusHttp, gaintopHttp, donatetopHttp } from '@api'
+import { basePathHttp } from '@api'
 import { assetsPrefix, isDev } from '@config'
 import { isOldVersion, isAndroid, urlParam } from '@lib/eryuSdk'
 import { getRandomNum } from '@lib/common/config/mUtils'
@@ -347,7 +349,8 @@ export default {
       meetPercent: 10,
       msgList: [],
       msgId: '',
-      msgText: ''
+      msgText: '',
+      midwayInitRes: ''
     }
   },
   computed: {
@@ -391,9 +394,16 @@ export default {
     this.getPercent()
     // this.getDb()
     this.getMsg()
+    this.midwayInit()
   },
   // 相关操作事件
   methods: {
+    midwayInit () {
+      basePathHttp({ name: urlParam.name }).then(res => {
+        console.log('basePathHttp--', res)
+        this.midwayInitRes = res.data
+      })
+    },
     getMsg () {
       this.msgList = [{
         title: '记录每天一件快乐的事',
